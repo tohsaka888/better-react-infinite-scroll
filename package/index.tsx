@@ -1,4 +1,7 @@
 import React from "react";
+import { AsyncInfiniteScroller } from "./AsyncInfiniteScroller";
+
+export { AsyncInfiniteScroller };
 
 interface InfiniteScrollProps extends React.HTMLAttributes<HTMLDivElement> {
   fetchNextPage: () => void;
